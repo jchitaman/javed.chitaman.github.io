@@ -24,19 +24,6 @@ lang: "en" # Language setting for the site
 paginate: 5 # Number of posts per page
 date_format: "%b %-d, %Y" # Date format
 
-# Navigation links
-navigation:
-  - title: Home
-    url: "/"
-  - title: About
-    url: "/about/"
-  - title: Categories
-    url: "/categories/"
-  - title: Tags
-    url: "/tags/"
-  - title: Archive
-    url: "/archive/"
-
 # MathJax and Table of Contents
 # Enable MathJax and TOC on specific pages by adding `math: true` and `toc: true` in their front matter
 
