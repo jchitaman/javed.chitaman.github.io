@@ -1,0 +1,78 @@
+# Site settings
+title: "Your Site Title"
+description: "A brief description of your site for SEO purposes."
+baseurl: "" # Leave empty for personal GitHub Pages; use "/project-name" for a project page
+url: "https://yourusername.github.io" # Your GitHub Pages URL without a trailing slash
+
+# Author details
+author: "Your Name"
+email: "your-email@example.com"
+location: "Your Location"
+avatar: "/assets/images/avatar.jpg" # Path to your avatar image in your repository
+
+# Theme settings
+remote_theme: ngzhio/jekyll-theme-hamilton
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Google Analytics
+google_analytics: "UA-XXXXXXXXX-X" # Replace with your Google Analytics tracking ID
+
+# Disqus comments
+disqus: "your-disqus-shortname" # Replace with your Disqus shortname
+
+# Skins and Styles
+skin: "daylight" # Choose from daylight, midnight, sunrise, or sunset
+lang: "en" # Language setting for the site
+paginate: 5 # Number of posts per page
+date_format: "%b %-d, %Y" # Date format
+
+# Social links (optional)
+social_links:
+  - title: Twitter
+    url: "https://twitter.com/yourhandle"
+    icon: "fab fa-twitter"
+  - title: GitHub
+    url: "https://github.com/yourusername"
+    icon: "fab fa-github"
+  - title: LinkedIn
+    url: "https://linkedin.com/in/yourhandle"
+    icon: "fab fa-linkedin"
+
+# Navigation links
+navigation:
+  - title: Home
+    url: "/"
+  - title: About
+    url: "/about/"
+  - title: Categories
+    url: "/categories/"
+  - title: Tags
+    url: "/tags/"
+  - title: Archive
+    url: "/archive/"
+
+# MathJax and Table of Contents
+# Enable MathJax and TOC on specific pages by adding `math: true` and `toc: true` in their front matter
+
+# Sitemap
+sitemap:
+  changefreq: weekly
+  priority: 1.0
+
+# SEO
+seo:
+  title: "Your Site Title"
+  description: "A description of your site for search engines."
+
+# Archives configuration (for categories, tags, etc.)
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      toc: true # Automatically enable TOC on posts
