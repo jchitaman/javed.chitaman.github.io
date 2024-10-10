@@ -1,0 +1,3 @@
+plugins:
+  - jekyll-remote-theme # for GitHub Pages
+remote_theme: ngzhio/jekyll-theme-hamilton # for GitHub Pages
