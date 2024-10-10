@@ -1,3 +1,17 @@
 plugins:
   - jekyll-remote-theme # for GitHub Pages
 remote_theme: ngzhio/jekyll-theme-hamilton # for GitHub Pages
+
+title: "Javed M. Chitaman, Ph.D."
+disqus: "your-disqus-shortname" # replace with your Disqus shortname
+google_analytics: "UA-XXXXXXXXX-X" # replace with your Google Analytics ID
+
+author: "Your Name"
+avatar: "/path-to-your-avatar.jpg"
+email: "your-email@example.com"
+location: "Your Location"
+skin: "daylight" # options: daylight, midnight, sunrise, sunset
+lang: "en"
+paginate: 5
+date_format: "%b %-d, %Y"
+subscribe: true
