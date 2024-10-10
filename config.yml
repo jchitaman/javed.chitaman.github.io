@@ -45,7 +45,7 @@ social_links:
 # Navigation links
 navigation:
   - title: Home
-    url: ""
+    url: "/"
   - title: About
     url: "/about/"
   - title: Categories
