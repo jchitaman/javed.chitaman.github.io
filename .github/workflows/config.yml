@@ -15,3 +15,6 @@ lang: "en"
 paginate: 5
 date_format: "%b %-d, %Y"
 subscribe: true
+
+destination: _site
+baseurl: ""
