@@ -2,12 +2,12 @@
 title: "Your Site Title"
 description: "A brief description of your site for SEO purposes."
 baseurl: "" # Leave empty for personal GitHub Pages; use "/project-name" for a project page
-url: "https://yourusername.github.io" # Your GitHub Pages URL without a trailing slash
+url: "https://javed.chitaman.github.io" # Your GitHub Pages URL without a trailing slash
 
 # Author details
-author: "Your Name"
-email: "your-email@example.com"
-location: "Your Location"
+author: "Javed M. Chitaman, Ph.D."
+email: "jchitaman@gmail.com"
+location: "Philadelphia, PA"
 avatar: "/assets/images/avatar.jpg" # Path to your avatar image in your repository
 
 # Theme settings
